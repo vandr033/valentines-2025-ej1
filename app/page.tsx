@@ -311,10 +311,12 @@ export default function Home() {
                       height: "100px",
                     }}
                     onClick={() => {
-                      window.open(
-                        "https://api.whatsapp.com/send?phone=14055417441",
-                        "_blank"
-                      );
+                      // window.open(
+                      //   "https://api.whatsapp.com/send?phone=14055417441",
+                      //   "_blank"
+                      // );
+                      //show a small popup saying "Este link abrira whatsapp "
+                      alert("Este boton abrira whatsapp o cualquier otro link");
                     }}
                   >
                     <FaCheck className="w-6 h-6" />
